@@ -1,0 +1,196 @@
+%------------------------
+
+% Author : Adari Girish Kumar
+% Github : https://github.com/agirishkumar
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Adari Girish Kumar}} & Email: \href{mailto:adari.girishkumar@gmail.com}{adari.girishkumar@gmail.com}\\
+  \href{www.linkedin.com/in/adarigirishkumar}{LinkedIn: www.linkedin.com/in/adarigirishkumar} & Mobile:~~~+91-7550249736 \\
+  \href{https://github.com/agirishkumar}{Github: ~~github.com/agirishkumar} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology}{Chennai, India}
+      {Bachelor of Technology - Electronics and Communication Engineering;  GPA: 8.32}{July 2016 - June 2020}
+      \resumeSubheading
+      {Sri Chaitanya JR. College}{Visakhapatnam, India}
+      {Intermediate in MPC;  90.7 percentage}{July 2013 - June 2015}
+      \resumeSubheading
+      {Visakha Valley School}{Visakhapatnam, India}
+      {10th CBSE CGPA: 10  } {2013}
+    \resumeSubHeadingListEnd
+    
+	    
+\vspace{-4pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, C, Java, JavaScript, SQL, Bash, R}
+	\resumeSubItem{Frameworks}{~~~~Scikit, NLTK, SpaCy, TensorFlow, Keras, Django, Flask, Kivy, Scrapy}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Kubernetes, Docker, Ansible, GIT, MySQL, Jenkins, Selenium, MATLAB, Proteus,  Blender }
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Windows, Arduino, Raspberry pi, AWS}
+	\resumeSubItem{Designing}{~~~~~~~Photoshop, Illustrator, Figma, Adobe XD, Blender }
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Time Management}
+
+\resumeSubHeadingListEnd
+\vspace{-3pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Interned at ECIL}{HYDERABAD}
+    {Embedded Systems Intern}{7th JUNE – 5th JULY 2018}
+    \resumeItemListStart
+        \resumeItem{Smart Stick for Blind people}
+          {Created a stick using Arduino, GSM, GPS modules and components like buzzers, microphone, ultrasonic sensor and speaker to help the blind in navigating to their destination.}
+      \resumeItemListEnd
+\vspace{1pt}
+    \resumeSubheading
+		{Interned at Linux World Informatics Pvt. Ltd. }{JAIPUR}
+		{DevOps Intern}{9th MAY – 30th JULY 2019}
+		\resumeItemListStart
+        \resumeItem{Technolgies Learnt: }
+          { RHEL 7 OS, Python, Git, Docker, Kubernets, Ansible, Cloud Computing, Big Data.}
+        \resumeItem{Startup Pi/2: }{My team and I have presented our project to accurately identify the power theft, along with automatic monthly billing, power supply failure complain registration features at a startup expo JAZBAA 1.0}
+		\resumeItemListEnd
+\vspace{1pt}
+    \resumeSubheading
+		{Associate Developer at TransUnion }{Chennai}
+		{}{16th November – Present}
+		\resumeItemListStart
+        \resumeItem{Role: }
+          { As an Associate Developer I work on customizing IDVision and Digital On-Boarding solutions for our subscribed bank clients}
+        \resumeItem{Tech Stack: }{Apart from internal tools, I majorly work on REST and SOAP APIs, Microdoft SQL Server Management Studio, Azure Pipeline, HCL Appscan, Checkmarx scan tools. }
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-7pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Voice Assistant}{Speech controlled personalized assistant to setup the systems on server side using NLP, Ansible and Python CGI.}
+\vspace{1pt}
+\resumeSubItem{Automated Toll Gate Billing System }{Using OpenCV to recognize vehicle number plate and Tesseract OCR engine to Identify the Registration number and pass it on to API for toll payment.}
+\vspace{2pt}
+\resumeSubItem{Passive OS detection using Fingerprinting of TCP/IP}{Sniffing network traffic at any given collection point and matching known patterns that pass to a table of pre-established OS identities}
+\vspace{2pt}
+\resumeSubItem{Dual Nature of Electron}{A Java based standalone software used to demonstrate and simulate both the particle nature and wave nature of electron}
+\vspace{2pt}
+\resumeSubItem{AR Coin Collector Game}{An Augumented Reality game made in Unity, where the character is controlled to move in real surroundings and scores increases when he passes through one rupee coins}
+\vspace{2pt}
+\resumeSubItem{Storage As a Service}{Created a web portal where users can either request or lend their free hard-disk space and by leveraging Hadoop Mapreduce, HDFS file system is setup and the extra hard disk space is rented to the requestors}
+\vspace{2pt}
+\resumeSubItem{Automated Machine Learning based Intrusion Detection System on IoT MQTT Network}{ Used AutoML techniques, namely TPOT, H2O and Autokeras,to adaptively learn from our dataset and select the best machine learning or neural network algorithm-based to detect MQTT-based attacks}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Publications}
+\resumeSubHeadingListStart
+\resumeSubItem{Machine Learning in Genomics: Identification and Modelling of ACPs }{Under Review Process at Elsevier. Built Random Forest Classifier (RFC) models using feature extracting functions like Amino Acid Composition (AAC), Dipeptide Composition (DPC), Conjoint Triad Calculation (CTC), and Distance Distribution of Residues (DDOR). AAC and DDOR have produced the highest accuracies in the identification of ACPs for both datasets}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Certifications}
+\begin{description}[font=$\bullet$]
+\item {Red Hat Certified System Administrator : 190-129-213}
+\vspace{-5pt}
+\item {Red Hat Certified Specialist in Ansible Automation : 190-129-213}
+\vspace{-5pt}
+\item {AWS Certified Cloud Practitioner}
+\vspace{-5pt}
+\item {IBM Machine Learning with Python}
+\vspace{-5pt}
+\item {IBM Big Data Foundations  }
+\vspace{-5pt}
+\item {Hackerrank SQL(Intermediate): B9E5133B2F4C}
+
+\end{description}
+
+\vspace{-5pt}
+\section{Volunteer Experience}
+\begin{description}[font=$\bullet$]
+\item {Head Of Marketing for Vibrance 2018-19}
+\vspace{-5pt}
+\item {Head Of Marketing for TechnoVIT 2018-19}
+\vspace{-5pt}
+\item {Speaker for chennai Docker Meetup 2019: Docker for IoT}
+
+\end{description}
+
+\end{document}
